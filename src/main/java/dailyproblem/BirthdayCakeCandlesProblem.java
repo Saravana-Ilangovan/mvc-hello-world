@@ -14,6 +14,7 @@ public class BirthdayCakeCandlesProblem {
 	    	numberArray.add(in.nextInt());
 	    }
 	    birthdayCakeCandles(numberArray);
+	    System.out.println(numberArray);
 	}
 
 	private static void birthdayCakeCandles(List<Integer> numberArray) {
